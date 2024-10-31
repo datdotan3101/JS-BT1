@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- INTRO -->
+    <div class="baiTap">
+        <div class="container">
+            <h1>JS - BÀI 1</h1>
+            <div class="intro">
+                <a href="#tienLuong">Bài 1</a>
+                <a href="#tinhTrungBinh">Bài 2</a>
+                <a href="#doiTien">Bài 3</a>
+                <a href="#tongHinhChuNhat">Bài 4</a>
+                <a href="#congHaiSo">Bài 5</a>
+            </div>
+            <!-- Bài tập 1 -->
+            <div class="baiGiai">
+                <div id="tienLuong" class="space">
+                    <h1>Tính tiền lương nhân viên</h1>
+                    <input type="number" id="luongNgay" value="100.000">
+                    <input type="number" id="soNgay" placeholder="Nhập số ngày làm">
+                    <button id="tongLuong">Tổng</button>
+                    <p class="text">Tiền lương là:
+                    <p id="pInform"></p>
+                    </p>
+                </div>
+                <!-- Bài tập 2  -->
+                <div id="tinhTrungBinh" class="space">
+                    <h1>Tính tổng trung bình 5 số</h1>
+                    <input id="numb1" type="number" placeholder="Nhập number 1">
+                    <input id="numb2" type="number" placeholder="Nhập number 2">
+                    <input id="numb3" type="number" placeholder="Nhập number 3">
+                    <input id="numb4" type="number" placeholder="Nhập number 4">
+                    <input id="numb5" type="number" placeholder="Nhập number 5">
+                    <button id="btnTongAve">Tổng</button>
+                    <p class="text">Trung bình 5 số là:
+                    <p id="tongTrungBinh"></p>
+                    </p>
+                </div>
+                <!-- Bài tập 3  -->
+                <div id="doiTien space">
+                    <h1>Quy đổi USD sang VND</h1>
+                    <input id="vnd" type="number" value="23.500">
+                    <input type="usd" id="usd" placeholder="Nhập số tiền usd">
+                    <button id="quyDoi">Đổi</button>
+                    <p class="text">Đổi tiền:
+                    <p id="doiTien"></p>
+                    </p>
+                </div>
+
+                <!-- Bài tập 4  -->
+                <div id="tongHinhChuNhat" class="space">
+                    <h1>TÍNH CHU VI VÀ DIỆN TÍCH HÌNH CHỮ NHẬT</h1>
+                    <input type="number" id="chieuDaiInput" placeholder="Nhập chiều dài">
+                    <input type="number" id="chieuRongInput" placeholder="Nhập chiều rộng">
+                    <button id="btnTinhTong">Tính</button>
+                    <div class="showResult">
+                        <p class="text">Chu vi:
+                        <p id="pChuVi"></p>
+                        </p>
+                        <p class="text">Diện tích:
+                        <p id="pDienTich"></p>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- BÀI TẬP 5  -->
+                <div id="tongHaiKySo">
+                    <h1>TÍNH TỔNG HAI KÝ SỐ</h1>
+                    <input type="number" id="haiKySoInput" placeholder="Nhập số có hai chữ số">
+                    <button id="tongHaiSo">Tính </button>
+                    <p> Tổng hai ký số là: 
+                    <p id="pKetQua"></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bt1.js"></script>
+    <script src="./bt2.js"></script>
+    <script src="./bt3.js"></script>
+    <script src="./bt4.js"></script>
+    <script src="./bt5.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+input{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px;
+}
+button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 50px;
+    margin: 20px 0;
+    border-style: none;
+    border-radius: 100px;
+    display: block;
+
+    background-color: blue;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.745);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container>h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.baiTap>h1{
+    color: white;
+    text-align: center;
+}
+.baiTap{
+    padding: 50px 0;
+    background-color: gray;
+}
+p{
+    display: inline;
+    font-size: 1.5rem;
+    margin: 50px 0px
+}
+/* INTRO   */
+.intro{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 90px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.intro a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 40px;
+    transition: all 0.5s;
+}
+.intro a:hover{
+    background-color: blue;
+    color: white;
+}
+#tongHinhChuNhat .showResult p{
+    margin-left: 20px;
+}
+
