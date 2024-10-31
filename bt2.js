@@ -13,5 +13,9 @@ btnTongAve.onclick = function (){
 
     let tongTrungBinh = document.getElementById("tongTrungBinh")
     tongTrungBinh.innerText = average;
-    
 }
+/**
+ * - Input: Nhập 5 số
+ * - Progress: 5 số / 5
+ * - Output: In kết quả ra màn hình chính
+ */

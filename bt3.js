@@ -10,5 +10,10 @@ quyDoi.onclick = function() {
 
     let tienQuyDoi = document.getElementById("doiTien");
     tienQuyDoi.innerText = quyDoiTien;
-    
 }
+
+/**
+ * - Input: nhập số tiền usd
+ * - Progress: số tiền vnd là 23500 * số tiền usd
+ * - Ouput: in kết quả qua màn hình
+ */
