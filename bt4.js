@@ -20,3 +20,12 @@ tinhTong.onclick = function (){
     let resultDienTich = document.getElementById("pDienTich");
     resultDienTich.innerText = result2
 }
+
+/**
+ * - input: nhập chiều dài và chiều rộng;
+ * - progress: 
+ *      + chu vi: (chiều dài + chiều rộng) *2
+ *      + diện tích: chiều dài * chiều rộng
+ * - output: in kết quả của chu vi và diện tích
+ * 
+ */

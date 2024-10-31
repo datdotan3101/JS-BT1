@@ -11,3 +11,10 @@ tongLuong.onclick = function (){
     pInform.innerText = result;
 }
 
+/** 
+ * 
+ - input: nhập số ngày làm việc
+ -progress:
+    tong = luongNgay * soNgay;
+- output: hiện kết quả tiền lương
+*/

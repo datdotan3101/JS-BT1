@@ -12,3 +12,12 @@ tinhHaiTong.onclick = function (){
     let pKetQua = document.getElementById("pKetQua");
     pKetQua.innerText = ketQua;
 }
+
+/**
+ * input: Nhập hai chữ số
+ * progress:  
+ *      donVi = so % 10;
+ *      hangChuc = Math.floor(so /10);
+ *      ketQuaTong = donVi + hangChuc;
+ * output: Hiện kết quả
+ */
